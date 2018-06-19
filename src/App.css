@@ -1,0 +1,66 @@
+
+body {
+	background: #fff;
+	font-family: 'Helvetica Neue', 'Roboto', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.01rem;
+}
+
+.about, .aboutTextVisible {
+	font-weight: 600;
+	/*border: 1px solid;*/
+	margin-top: 3vh;
+	margin-left: 6vh;
+	cursor: pointer ;
+}
+
+.aboutHidden {
+	display: none;
+}
+
+.aboutTextHidden {
+	display: none;
+}
+
+.aboutTextVisible {
+	display: block;
+	font-weight: 400;
+}
+
+.main {
+	margin: 1.5vh 0 1.5vh 5vh;
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: nowrap ;
+	align-items: center ;
+	/*border: 1px solid;*/
+	overflow-y: hidden;
+}
+
+.image {
+	display: inline-block;
+	position: relative;
+}
+
+.year {
+	font-size: 22rem;
+	margin: 0;
+	padding: 0 1vw;
+	transform: rotate(-90deg);
+	/*border: 1px solid;*/
+	position: relative;
+	z-index: -99999;
+}
+
+
+.footer {
+	padding: 0;
+	margin-left: 6vh;
+}
+
+.footer > a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	cursor: pointer;
+}

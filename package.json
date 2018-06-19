@@ -1,0 +1,25 @@
+{
+  "name": "youtheusers-website",
+  "version": "0.1.0",
+  "private": true,
+  "author": "kalli",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "history": "^4.6.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-image-zoom": "^0.7.0",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "^1.1.4",
+    "react-scrollarea": "^0.6.15",
+    "react-scrollbar": "^0.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
+}
