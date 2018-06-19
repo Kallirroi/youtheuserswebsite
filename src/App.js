@@ -32,7 +32,7 @@ class App extends Component {
       <div>
         <div className={ !this.state.showAbout ? "about" : "aboutHidden"} onClick={this.toggleAbout}>about</div>
         <div className={ this.state.showAbout ? "aboutTextVisible" : "aboutTextHidden"} onClick={this.toggleAbout}>
-        A visual exploration of how many times the world "you", or variations of it, gets mentioned in Apple Keynote events throughout the years.
+        A visual exploration of how many times the word "you", or variations of it, gets mentioned in Apple Keynote events throughout the years.
         </div>
         <div className="main">
           <ReactImageZoom {...props2018} className="image"/> <div className="year">2018</div>
